@@ -1,12 +1,57 @@
-# React + Vite
+# 🌍 SmartRoam - Smart Travel Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartRoam is a simple and responsive web app built using **React** and **CSS** that provides real-time location, weather, and network information to the user. It also includes smooth scrolling and responsive navigation, making it mobile-friendly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📍 Shows your current **geolocation** (latitude, longitude, and place name)
+- 🌤 Displays current **weather** using your location
+- 📶 Tells your **network connection status** (type, speed, RTT)
+- ☁️ Smooth scrolling navigation
+- 📱 Fully **responsive design** with a collapsible navbar on mobile
+- 🎯 Clean UI and simple layout with animated section reveal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Live Demo
+
+[👉 View Live Site](https://Aayushk03.github.io/smart-travel-app)
+
+---
+
+## 🌐 Web APIs Used
+
+This app makes use of the following browser/web APIs:
+
+1. **Geolocation API**  
+   → To get your current coordinates (latitude & longitude)
+
+2. **Network Information API**  
+   → To check your internet connection type, speed, and response time
+
+3. **Intersection Observer API**  
+   → To reveal sections smoothly as they come into view (scroll effect)
+
+4. **Open-Meteo Weather API**  
+   → To fetch current weather based on your coordinates
+
+5. **OpenStreetMap Nominatim API**  
+   → To convert coordinates into a human-readable location (reverse geocoding)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (via Vite)
+- **Plain CSS** (custom styling, no Tailwind)
+- **HTML5 APIs** (Geolocation, Network, Observer)
+
+---
+
+## 📂 Project Setup
+
+```bash
+npm install
+npm run dev
